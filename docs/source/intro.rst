@@ -1,15 +1,12 @@
 Introduction
 =====
 
-The Quail QFieldCloud plugin synchronizes your QFieldCloud data to PostGIS.
+tile_portal is a lightweight portal for sharing pg_tileserv layers.
 
-You can sync to a remote or new local PostGIS database.
+The application installs pg_tileserv and pg_featureserv and allows you to run multiple services for each.
 
-The synchronization service runs in the background at the interval you speficiy.  When you mobile is updated, your PostGIS database is updated.
+Layers can be Public or be restricted with Group Level Permissions
 
-You can also publish your data as WMS via Quail using either the PostGIS data or your QGIS Project.
-
-
-   .. image:: qf-1.png
+tile_portal works with local or remote PostGIS databases and you can also create PostGIS databases via the app as well.
 
 
