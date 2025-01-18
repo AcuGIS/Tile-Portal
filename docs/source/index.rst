@@ -20,6 +20,7 @@ Contents
    groups
    createdb 
    services
+   portal
   
 
 
