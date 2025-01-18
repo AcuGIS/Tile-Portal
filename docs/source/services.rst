@@ -10,64 +10,45 @@ pg_tileserv is run as a service.
 
 To access pg_tileserv services, click the Services link on the left menu
 
-.. image:: _static/mapproxy-1.png
 
+Start
+================
+
+To start/stop a pg_tileserv service, click the Stop or Restart button as shown below.
+
+.. image:: _static/service-start.png
+
+Check that the service is now running
+
+.. image:: _static/service-started.png
 
 Restart
 ================
 
-To stop/start/restart MapProxy, click the Stop or Restart button as shown below.
+To restart a pg_tileserv service, click the Restart button as shown below.
 
-.. image:: _static/mapproxy-restart.png
+.. image:: _static/service-restart.png
 
 Edit
 ================
 
-To edit the mapproxy.yaml file, click the edit button as shown below.
+To edit a pg_tileserv service file, click the edit button as shown below.
 
-.. image:: _static/mapproxy-edit.png
+.. image:: _static/service-edit.png
 
 This will open the mapporxy.yaml file for editing.
 
-.. image:: _static/mapproxy-edit-2.png
+.. image:: _static/service-edit-config.png
 
 .. note::
     Be sure to click the Submit button at bottom after making changes.
 
-MapProxy Directory
+pg_tileserv Directory
 ================
 
-The MapProxy config directory is located at::
+The pg_tileserv config directory is located at::
 
-        /var/www/data/mapproxy
-
-The default configuration files are shown below
-
-.. image:: mapproxy-files.png
-
-
-Cache Directory
-================
-
-The MapProxy config directory is located at::
-
-        /var/www/data/mapproxy/cache_data
-
-The ouput from the demo data is shown below
-
-.. image:: maproxy-cache-directory.png
-
-
-Authentication
-================
-
-When a Layer is set to Private, MapProxy authenticates requests against the QeoSerer user database.
-
-Authentication is accomplished using the wsgiapp_authorize.patch file::
-
-	patch -d /usr/lib/python3/dist-packages/mapproxy -p0 < installer/wsgiapp_authorize.patch
-
-This file is located in the QeoServer installer directory.
+        /opt/pg_tileserv/config
 
 Service Versioning
 ==================
@@ -76,7 +57,7 @@ Each update to the yaml file for each layer creates a restorable backup.
 
 If you wish to restore a previous version, simply select it from the dropdown as show below
 
-.. image:: seed-editor.png
+.. image:: _static/service-versioning.png
 
 
 Service File
