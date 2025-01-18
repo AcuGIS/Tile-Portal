@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Quail QField Plugin'
-copyright = '2024, Cited, Inc.'
+project = 'tile_portal'
+copyright = '2025, Cited, Inc.'
 author = 'Cited Inc'
 
 release = '2.1'
