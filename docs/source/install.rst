@@ -53,8 +53,9 @@ Optionally, run below to provision SSL using letsencrypt:
 
    certbot --apache --agree-tos --email hostmaster@yourdomain.com --no-eff-email -d yourdomain.com
 
-
 Login at https://yourdomain.com
+
+.. image:: _static/login.png
 
 Default credentials
 
@@ -63,7 +64,7 @@ Default credentials
 
 Note: If you see below when navigating to your domain, remove the default index.html page from /var/www/html
 
-.. image:: error-page.png
+.. image:: _static/error-page.png
 
 
 
