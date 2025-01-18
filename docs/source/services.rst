@@ -53,7 +53,7 @@ The pg_tileserv config directory is located at::
 Service Versioning
 ==================
 
-Each update to the yaml file for each layer creates a restorable backup.
+Each update to the toml file for each layer creates a restorable backup.
 
 If you wish to restore a previous version, simply select it from the dropdown as show below
 
@@ -67,7 +67,7 @@ pg_tileserv is configured to run as a systemd service.
 
 The pg_tileserv@.service file contains below by default::
 
-	[Unit]
+  [Unit]
   Description=PG TileServ
   After=multi-user.target
 
