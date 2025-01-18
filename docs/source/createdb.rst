@@ -37,6 +37,23 @@ The PostGIS database has now been created.
   .. image:: _static/db-empty-created.png
 
 
+Create Database From File
+======================
+
+To create an empty PostGIS database, click the Create button
+
+  .. image:: _static/db-create.png
+
+Give your database a name and select the file to import.
+
+  .. image:: _static/db-create-from-file.png
+
+The PostGIS database has now been created.
+
+  .. image:: _static/db-from-file-created.png
+
+
+
 Connection Information
 ======================
 
@@ -49,36 +66,5 @@ The conneciton information is displayed in Modal format
   .. image:: _static/db-show-conn-2.png
 
 
-1. Create
-------------------------
-
-Right click on layer > Export > Save As > GeoPackage
-
-  .. image:: images/create-db-1.png
-
-
-
-2. Upload GeoPackages
--------------------------
-
-Go to Data Sources > Create and upload your GeoPackage(s).
-
-  .. image:: images/create-db-2.png
-
-
-3. Data Source is Created
--------------------------------
-
-Set your map layer(s) to use your new Data Source
-
- .. image:: images/qwc_conn_info_0.png
-
  
-4. Connection Information
--------------------------------
-
-You can retrieve the database connection information at any time by clicking the Connection link.
-
-
- .. image:: images/qwc_conn_info.png
 
