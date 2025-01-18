@@ -1,11 +1,10 @@
 Create Database
 ======================
 
-If you do not have an existing PostGIS database, you can create one from your QGIS Project.
+You can create a new empty PostGIS database or create a PostGIS database from a data file or backup.
 
 
-
-1. Export your layer(s)
+1. Create
 ------------------------
 
 Right click on layer > Export > Save As > GeoPackage
