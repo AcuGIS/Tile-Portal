@@ -17,7 +17,7 @@ Contents
    intro
    install
    import
-   parameters
+   users
    publish
    createdb   
   
