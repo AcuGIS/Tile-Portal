@@ -5,7 +5,7 @@ tile_portal
 
    
 
-   .. image:: _static/map.png
+   .. image:: _static/viewer.png
 
 
 
