@@ -13,7 +13,7 @@ User Groups
 Overview
 ==================
 
-Report permissions are granted to User Groups.
+Layer permissions are granted to User Groups.
 
 
 Pre-installed Groups
@@ -22,9 +22,7 @@ Pre-installed Groups
 On installation, two Groups are created.
 
 * Default (an Administrator)
-   * Members: Quail Admin   
-* ClientGroup1
-   * Members: Jane Doe
+   * Members: Admin   
    
 
 Add New Group
@@ -32,12 +30,12 @@ Add New Group
 
 To add a new Group, click the "Add New" button at top.
 
-.. image:: 1-add-new.png
+.. image:: _static/layer-add-new.png
 
 
 Give your Group a name and click the Create button:
 
-.. image:: create-group.png
+.. image:: _static/group-create.png
 
 
 Delete Group
