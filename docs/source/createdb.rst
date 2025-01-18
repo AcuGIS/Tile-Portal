@@ -54,6 +54,36 @@ The PostGIS database has now been created.
 
 
 
+Create Connection
+================
+
+To add a connection to a remote or existing PostGIS database, click the "Add New" button at top.
+
+.. image:: _static/db-create-add-new.png
+
+Populate the required fields for your PostgreSQL connection
+
+.. image:: _static/db-create-new-1.png
+
+Under Database, click the "Load Database Names" icon
+
+.. image:: _static/db-load-names.png
+
+The list of available databases will appear.  Select the database you wish to connect to.
+
+.. image:: _static/db-load-names-select.png
+
+Select the Group(s) that will have permission to the Store
+
+.. image:: _static/db-create-new-final.png
+
+Click Save.  Your Store has been created.
+
+.. image:: _static/db-created-final.png
+
+
+
+
 Connection Information
 ======================
 
