@@ -14,60 +14,46 @@ Layer Viewer
 Overview
 ==================
 
-The Map Viewr page is what End Users see when they log into Quail.
+The Layer Viewr page is what End Users see when they log into tile_portal.
 
-.. image:: quail-map-viewer.png
+.. image:: _static/viewer.png
+
+Clicking the link opens the layer in a new tab
+
+.. image:: _static/new-tab-map.png
+
+By default, each Layer you create generates a pg_tileserv app which can be viewed via the Layer Viewer.
+
+The Viewer can be reached either via the tile_portal installation via the Layers page
+
+If the Layer is Public, it can be viewed directly via the Layer URL (e.g. https://yourdomain.com/public.parks.html)
 
 
-By default, each Layer you create generates a basic Leafletjs map which can be viewed via the Map Viewer.
-
-The Map Viewer can be reached either via the MapViewer link in the menu or via the Layers page
-
-It can also be viewed via the Layer Preview url directly if the Layer is Public.
-
-.. image:: ../../sections/sample/usa-preview.png
-
-Map Viewer Page
+Layer Viewer Page
 ====================
 
 The Map Viewr page is what End Users see when they log into Quail.
 
-.. image:: quail-map-viewer.png
+.. image:: _static/viewer.png
 
 
-For example, if you log in as the demo user:
+For example, if you log in as the end user we created in the "Users" section earlier (jane@doe.com), we see only the Layer(s) she has permission for.
 
    * Email: jane@doe.com 
    * Password: quail
 
 You will see below:
 
-.. image:: end-user-demo-viewer.png
+.. image:: _static/layer-end-user.png
 
-The user Jane Doe only has permissions on the Custom Demo and USA Data layers.
+Also note the "Administration" link does not appear on the top bar.
 
-Layer Page
+Customize Apps
 ================
 
-The Layer page allows you to view the Map via Map Viewer link as well as edit it.
+Layers use default pg_tileserv app.
 
-.. image:: viewe2.png
-
-
-Custom Maps
-================
-
-You can also add Custom Maps to the Map Viewer via the Layers page.
-
-1. Create a new Layer using the Store you wish to use.
-
-2.  Click the Edit Preview button
-
-3.  Update with any additional layers or formatting.
-
-The default Demo layers include a custom Map, CustomDemo
-
-.. image:: viewer-custom.png
+You can change/udpate these on a per layer basis.
 
 
 
