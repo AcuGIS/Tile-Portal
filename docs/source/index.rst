@@ -16,9 +16,8 @@ Contents
 
    intro
    install
-   import
    users
-   publish
+   groups
    createdb   
   
 
