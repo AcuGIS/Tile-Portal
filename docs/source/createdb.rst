@@ -34,7 +34,7 @@ Give your database a name and check the "Database Only" check box.
 
 The PostGIS database has now been created.
 
-  .. image:: _static/db-empty-created.png
+  .. image:: _static/new-db-created.png
 
 
 Create Database From File
