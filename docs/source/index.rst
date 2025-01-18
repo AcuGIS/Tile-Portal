@@ -1,12 +1,11 @@
-Quail QField Plugin
+tile_portal
 ===================================
 
-**Quail QField Plugin Docs**
+**tile_portal**
 
    
 
-   .. image:: qf-2.png
-
+   .. image:: _static/map.png
 
 
 
