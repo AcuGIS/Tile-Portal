@@ -42,18 +42,16 @@ To create a new user, click on Users on the left menu.
 
 Click the Add User button
 
-.. image:: 1-add-new.png
-
+.. image:: _static/layer-add-new.png
 
 
 Enter the required information and be sure to set the Access Level (Admin or User)
 
-.. image:: 1-add-user-detail.png
+.. image:: _static/user-create.png
 
 The user has now been created:
 
-
-.. image:: 3-user-added.png
+.. image:: _static/user-added.png
 
 
 Edit Group Membership
@@ -63,12 +61,11 @@ You can always edit Group Membership later as well via both Users and User Group
 
 To edit Group membership, click the Edit button as below
 
-.. image:: 4-edit-user.png
+.. image:: _static/user-edit.png
 
 Make any Group or access Level changes you wish to make, and then click Update
 
-.. image:: 5-edit-user.png
-
+.. image:: _static/user-change-group.png
 
 
 Delete User
