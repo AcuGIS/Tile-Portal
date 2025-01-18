@@ -14,44 +14,68 @@ Installation
 
 Installation is done via the install scripts located in the /installer directory.
 
-Install Plugin
+System Requirements
+=======================
+* 2 GB RAM
+* 5 GB Disk
+* Tested on Ubuntu 24
+
+Install
 =======================
 
 Use Git or download the Quail QField Plugin
 
 .. code-block:: console
 
-    git clone https://github.com/AcuGIS/quail-qfield-plugin.git
+    git clone https://github.com/AcuGIS/tile-portal.git
 
 Change to the quail-qfield-plugin directory
 
 .. code-block:: console
 
-    cd quail-qfield-plugin
+    cd tile-portal
     
 
 Execute the scripts in order.
 
 .. code-block:: console
  
-    ./prepare-plugin.sh.sh
-    ./install-plugin.sh.sh
-    ./set-permissions.sh
+    ./postgres.sh.sh
+    ./pg-tile.sh.sh
+    ./app-install.sh
 
 
-Go to QFieldCloud Plugin and verify installation.
+Optionally, run below to provision SSL using letsencrypt:
 
-.. image:: _static/plugin-install-confirm.png
+.. code-block:: console
+
+   apt-get -y install python3-certbot-apache
+
+   certbot --apache --agree-tos --email hostmaster@yourdomain.com --no-eff-email -d yourdomain.com
+
+
+Login at https://yourdomain.com
+
+Default credentials
+
+* Email:  admin@admin.com
+* Password: 1234
+
+Note: If you see below when navigating to your domain, remove the default index.html page from /var/www/html
+
+.. image:: error-page.png
 
 
 
-plugin-installed.png
-quail-qfield-cloud-load-project.png
-quail-qfield-cloud-load-project-2.png
-quail-qfield-cloud-load-project-3.png
-quail-qfield-cloud-load-project-4.png
-quail-qfield-cloud-plugin.png
-upload-in-progress.png
-upload-in-progress-2.png
+
+
+
+
+
+
+
+
+
+
 
 
