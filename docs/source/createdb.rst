@@ -16,9 +16,7 @@ Overview
 
 You can create a new empty PostGIS database or create a PostGIS database from a data file or backup.
 
-
-
-
+You can also connect to any existing PostGIS database you may have.
 
 
 Create Empty Database
