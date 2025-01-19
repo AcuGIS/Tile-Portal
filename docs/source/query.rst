@@ -17,6 +17,12 @@ tile_portal supports local queries as well as remote Public queries for pg_featu
 Examples
 =======================
 
+List items for Public layer
+
+.. code-block:: hrml
+
+   https://domain.com/public.apiary/collections/public.area/items
+
 Get json via Terminal using localhost
   
 .. code-block:: sql
