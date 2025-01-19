@@ -19,6 +19,7 @@ Contents
    createdb 
    services
    portal
+   query
   
 
 
