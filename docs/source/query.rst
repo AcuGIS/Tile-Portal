@@ -7,12 +7,18 @@
    :width: 1em
 
 ************
-Query
+Features
 ************
 
 .. contents:: Table of Contents
 
-tile_portal supports local queries as well as remote Public queries for pg_featureserv
+You can enable pg_featureserv service for Layers.
+
+pg_featureserv layers do not appear in the portal, but you can perform local queries as well as remote Public queries.
+
+.. note::    
+
+   Unless you plan to use this feature, do not enable the corresponding pg_featureserv service
   
 Examples
 =======================
