@@ -50,7 +50,17 @@ html_css_files = [
 pygments_style = "sphinx"
 
 
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
+
+html_logo = "_static/default.png"
 html_theme_options = {
-    'logo_only': False,
+    'prev_next_buttons_location': 'both',
     'display_version': False,
 }
+
+
+
