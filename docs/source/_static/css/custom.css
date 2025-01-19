@@ -22,3 +22,15 @@ nav.contents, aside.topic, div.topic {
     font-weight: bold;
 }
 
+
+.wy-side-nav-search {
+    display: block;
+    width: 300px;
+    padding: .809em;
+    margin-bottom: .809em;
+    z-index: 200;
+    background-color: #fff;
+    text-align: center;
+    color: #000!important;
+}
+
