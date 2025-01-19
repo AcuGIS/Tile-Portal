@@ -56,7 +56,7 @@ html_css_files = [
     'css/custom.css',
 ]
 
-html_logo = "_static/dcos-default.png"
+html_logo = "_static/docs-default.png"
 html_theme_options = {
     'prev_next_buttons_location': 'both',
     'display_version': False,
