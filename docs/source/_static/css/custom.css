@@ -1,17 +1,24 @@
+/*div.body {
+    min-width: 75%;
+    max-width: 75%;
+}*/
+
+.page {
+    padding-left: 0rem;
+}
+
+/*
+nav.contents, aside.topic, div.topic {
+    background-color: #eee;
+    padding-left: 30px!important;
+}*/
+
 .wy-nav-content {
    max-width: 1350px;
 }
-/*.wy-side-nav-search {
-    display: block;
-    width: 300px;
-    padding: .809em;
-    margin-bottom: .809em;
-    z-index: 200;
-    background-color: #fff;
-    text-align: center;
-    color: #fcfcfc;
-}*/
 
 .highlight {
-    background: #ffffff !important;
+    background: white;
+    font-weight: bold;
 }
+
