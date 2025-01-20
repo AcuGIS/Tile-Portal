@@ -20,42 +20,33 @@ To create a Layer, click the Add New button at top right
 
 .. image:: _static/layer-add-new.png
 
+Select the Service from the Service dropdown
 
-Add files via upload
-2 days ago
-layer-create-new-save.png
-update images
-2 days ago
-layer-create-new.png
-update images
-2 days ago
-layer-create.png
-update images
-2 days ago
-layer-created-final.png
-new images
-2 days ago
-layer-end-user.png
-image updates
-2 days ago
-layer-show-layer.png
+.. image:: _static/layer-create-new.png
+
+Select the table from the Name dropdown
+
+.. image:: _static/layer-create.png
+
+Select the Group(s) to give access to or if Layer should be Public
+
+.. image:: _static/layer-create-new-save.png
 
 
-Once a PostGIS Store has been created it can be used to:
+Click the Create button
 
-1. Create a Tablular data report by creating a PostGIS Layer
+The Layer has now been created, as shown below
 
-2. Create a QGIS Store to publish your project as OCG Web Services.
+.. image:: _static/layer-created-final.png
+
+Click the link for the Layer in the dashboard to veridy
+
+.. image:: _static/layer-end-user.png
+
+.. image:: _static/layer-show-layer.png
 
 
-QGS Store
-================
 
-You have two options for creating a QGS Store.
-
-Create a QGIS Store from your PostGIS Store above.
-
-Create QGIS Store by uploading your QGIS Project file.
 
 
 
