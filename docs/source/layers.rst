@@ -46,6 +46,17 @@ Click the link for the Layer in the dashboard to veridy
 .. image:: _static/layer-show-layer.png
 
 
+Edit Layer
+======================
+
+To edit a Layer, click the Edit icon at right.
+
+
+Delete Layer
+======================
+
+To delete a Layer, click the Delete icon at right.
+
 
 
 
