@@ -18,8 +18,8 @@ Contents
    groups
    createdb 
    services
-   portal
    layers
+   portal   
    query
   
 
