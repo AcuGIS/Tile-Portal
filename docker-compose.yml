@@ -1,0 +1,39 @@
+version: "3.7"
+
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    restart: always
+    env_file:
+      - docker/.env
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./docker/setup.sh:/docker-entrypoint-initdb.d/99_setup.sh
+      - ./docker/countries.dump:/tmp/countries.dump
+      - ./installer/setup.sql:/tmp/setup.sql
+      - ./installer/init.sql:/tmp/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready", "-U", "postgres", "-d", "$${APP_DB}"]
+      interval: 10s
+      timeout: 50s
+      retries: 10
+  web:
+    env_file:
+      - docker/.env
+    build:
+      context: .
+      dockerfile: docker/web.Dockerfile
+    volumes:
+      - pgt_dir:/var/www/pgt
+      - tile_config:/opt/pg_tileserv/config
+      - feat_config:/opt/pg_featureserv/config
+      - ./docker/const.php:/var/www/html/admin/incl/const.php
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+volumes:
+  pgt_dir:
+  tile_config:
+  feat_config:
+  pg_data:
