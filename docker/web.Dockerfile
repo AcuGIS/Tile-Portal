@@ -78,7 +78,8 @@ RUN chown -R www-data:www-data ${TILESERV_HOME} && \
 
 COPY docker/pgt_svc_ctl.sh /usr/local/bin/pgt_svc_ctl.sh
 RUN chmod +x /usr/local/bin/pgt_svc_ctl.sh && \
-	sed -i.save 's/sudo //g' /var/www/html/admin/class/backend.php
+	sed -i.save 's/sudo //g' /var/www/html/admin/class/backend.php && \
+	sed -i.save 's/sudo //g' /var/www/html/admin/action/service.php
 
 COPY docker/fix_and_run.sh /usr/local/bin/fix_and_run.sh
 RUN chmod +x /usr/local/bin/fix_and_run.sh
