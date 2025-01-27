@@ -31,7 +31,7 @@ $ cd TilePortal
 $ ./installer/docker-install.sh
 $ docker-compose pull
 
-Before calling up set docker/public.env with values used on your machine!
+Before calling 'docker-compose up', set the PUBLIC_IP value in Docker/public.env to your hostname or IP address:
 $ docker-compose up
 
 If you want to build from source, run next command.
