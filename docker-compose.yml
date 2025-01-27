@@ -18,6 +18,7 @@ services:
       timeout: 50s
       retries: 10
   web:
+    image: acugis/pg_tile_app_web:27012025
     env_file:
       - docker/.env
     build:
