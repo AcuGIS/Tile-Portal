@@ -1,11 +1,11 @@
-# TilePortal
+# tile_portal
 
 
 ### Installer
 
 ```bash
-   git clone https://github.com/AcuGIS/TilePortal.git
-   cd TilePortal
+   git clone https://github.com/AcuGIS/tile-portal.git
+   cd tile-portal
    ./installer/postgres.sh
    ./installer/pg-tile.sh
    ./installer/app-install.sh
@@ -26,8 +26,8 @@ Default credentials
 ### Docker (Not for Production Use)
 
 ```bash
-git clone https://github.com/AcuGIS/TilePortal.git
-$ cd TilePortal
+git clone https://github.com/AcuGIS/tile-portal.git
+$ cd tile-portal
 $ ./installer/docker-install.sh
 $ docker-compose pull
 
