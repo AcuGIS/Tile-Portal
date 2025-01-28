@@ -2,9 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/tile-portal/badge/?version=latest)](https://tile-portal.docs.acugis.com/en/latest/?badge=latest)
 
-## About
-
-...image: _images/viewer.png
+![tile-portal](docs/source/_static/viewer.png)
 
 tile_portal is a lightweight portal for sharing pg_tileserv layers.
 
